@@ -146,13 +146,13 @@ No output = syntax OK
 # `[+] USAGE`
 
 ```bash
-sudo ./aivi-server-audit.sh --domain example.com [OPTIONS]
+bash ./aivi-server-audit.sh --domain example.com --quick
 ```
 
 Display help:
 
 ```bash
-./aivi-server-audit.sh --help
+bash ./aivi-server-audit.sh --help
 ```
 
 ---
@@ -160,7 +160,7 @@ Display help:
 ## `[01] QUICK ASSESSMENT`
 
 ```bash
-./aivi-server-audit.sh --domain example.com --quick
+bash ./aivi-server-audit.sh --domain example.com --quick
 ```
 
 Designed for faster initial assessment.
@@ -170,7 +170,7 @@ Designed for faster initial assessment.
 ## `[02] FULL ASSESSMENT`
 
 ```bash
-sudo ./aivi-server-audit.sh \
+sudo bash ./aivi-server-audit.sh \
   --domain example.com \
   --ip 203.0.113.10 \
   --full
@@ -183,7 +183,7 @@ sudo ./aivi-server-audit.sh \
 ## `[03] WEB-ONLY ASSESSMENT`
 
 ```bash
-./aivi-server-audit.sh \
+bash ./aivi-server-audit.sh \
   --domain example.com \
   --web-only
 ```
@@ -193,7 +193,7 @@ sudo ./aivi-server-audit.sh \
 ## `[04] CONSERVATIVE FULL ASSESSMENT`
 
 ```bash
-sudo ./aivi-server-audit.sh \
+sudo bash ./aivi-server-audit.sh \
   --domain example.com \
   --ip 203.0.113.10 \
   --full \
@@ -209,7 +209,7 @@ sudo ./aivi-server-audit.sh \
 If an assessment is interrupted:
 
 ```bash
-sudo ./aivi-server-audit.sh \
+sudo bash ./aivi-server-audit.sh \
   --domain example.com \
   --ip 203.0.113.10 \
   --full \
