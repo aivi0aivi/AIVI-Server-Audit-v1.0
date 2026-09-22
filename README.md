@@ -107,7 +107,7 @@ AIVI integrates with common security utilities:
 │ testssl.sh         │ TLS configuration analysis   │
 │ Nuclei             │ Template security checks     │
 │ Nikto              │ Web server assessment        │
-│ FFUF                │ Content discovery            │
+│ FFUF               │ Content discovery            │ 
 │ Gobuster           │ Content discovery            │
 │ Feroxbuster        │ Recursive discovery          │
 └────────────────────┴──────────────────────────────┘
