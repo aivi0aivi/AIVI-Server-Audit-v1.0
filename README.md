@@ -8,7 +8,8 @@
     / \  |_ _\ \   / /_ _|
    / _ \  | | \ \ / / | |
   / ___ \ | |  \ V /  | |
- /_/   \_\___|  \_/  |___|  AIVI DARKNET COMMUNITY
+ /_/   \_\___|  \_/  |___|
+AIVI DARKNET COMMUNITY
 
         SERVER AUDIT
        VERSION 1.0.0
