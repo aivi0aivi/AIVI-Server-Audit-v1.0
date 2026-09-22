@@ -119,8 +119,8 @@ AIVI integrates with common security utilities:
 ### 1. Clone
 
 ```bash
-git clone YOUR-GITHUB-REPOSITORY-URL
-cd AIVI-Server-Audit
+git clone https://github.com/aivi0aivi/AIVI-Server-Audit-v1.0.git
+cd AIVI-Server-Audit-v1.0
 ```
 
 ### 2. Make executable
